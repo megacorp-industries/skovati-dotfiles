@@ -26,7 +26,7 @@
         };
 
         homeConfigurations = {
-            skovati = home-manager.lib.homeManagerConfiguration {
+            benny = home-manager.lib.homeManagerConfiguration {
                 inherit pkgs;
                 modules = [ ./home.nix ];
                 extraSpecialArgs = { inherit inputs; };
